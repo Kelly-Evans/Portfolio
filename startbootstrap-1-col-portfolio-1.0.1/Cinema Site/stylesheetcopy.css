@@ -1,0 +1,261 @@
+﻿/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	MADE BY Kelly Evans 2014
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/* 
+
+WORKS ON:
+- CHROME
+
+DOES NOT WORK ON:
+-FIREFOX
+
+*/
+
+
+
+.wrapper {
+	width: 900px;
+	margin: -20px auto;
+}
+
+.body {
+	background-color: #F2F2F2;
+
+}
+
+/* Actual box containing title & search box */
+
+.header {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-color:#297ACC;
+	border-width: 2px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: #F8F8F8;
+}
+
+/* Page main title */
+
+.head {
+	font-family: Helvetica;
+	font-size: 40px;
+	vertical-align: center;
+	padding: 30px 20px 30px 20px;
+	
+}
+
+/* Search bar formatting (was a pain to center
+with the page title, try not to mess with this or the
+page title too much */
+
+.searchbar  {
+	
+	float: right;
+	vertical-align: center;
+	margin-top: -60px;
+	font-family: Tahoma;
+	padding: 0 20px 0 20px;
+}
+
+/* probably worth condensing and using the shorthand for 
+some of the border's mark-ups (below) */
+
+.banner {
+	height: 40px;
+	width: 100%;
+	border-style: solid;
+	background-color: #F8F8F8;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border-color: #a20dbd;
+	border-width: 2px;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/* can't remember what this does, but you should probably find out */
+
+.content {
+	clear: both;
+	float:left;
+}
+
+
+/* The main content box with the Latin or whatever it is in it -
+supposed to be the different films but you get the picture */
+
+.films {
+	float: left;
+	width: 585px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #297ACC;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-family: "Trebuchet MS";
+	background-color: #F8F8F8;
+	font-size: 16px;
+}
+
+/* This is controlling both the image and the More Info button 
+because they both use <a> tags, so keep the float left on them
+so the text wraps around the image until you find another 
+solution to move the button to the right */
+
+.films a {
+	float:left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* This is also a bit dodgy as it controls pretty much everything
+in the films content box. */
+
+.films p {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+
+/* This is the input panel on the right - some issues when new 
+content inserted to its left, needs some fixes */
+
+.panel {
+
+	float: right;
+	width: 287px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #297ACC;
+	margin-left: 5px;
+	border-radius: 5px;
+	font-family: "Trebuchet MS";
+	background-color: #F8F8F8;
+	line-height: 36px;
+	padding: 5px;
+	font-size: 16px;
+position: fixed;
+left: 823px;
+top: 173px;
+}
+
+footer {
+font-family: "Trebuchet MS";
+font-size: 12px;
+}
+
+
+/* Unlikely to work on browsers other than chrome */
+
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c223de), color-stop(1, #a30dbd) );
+	background:-moz-linear-gradient( center top, #c223de 5%, #a30dbd 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c223de', endColorstr='#a30dbd');
+	background-color:#c223de;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0;
+	border:1px solid #c223de;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:70px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #a611c0;
+	float: right;
+	margin-top: 10px;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a30dbd), color-stop(1, #c223de) );
+	background:-moz-linear-gradient( center top, #a30dbd 5%, #c223de 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a30dbd', endColorstr='#c223de');
+	background-color:#a30dbd;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+
+
+
+
+.more {
+	-moz-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #e184f3;
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd) );
+	background:-moz-linear-gradient( center top, #c123de 5%, #a20dbd 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c123de', endColorstr='#a20dbd');
+	background-color:#c123de;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0;
+	border:1px solid #a511c0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:38px;
+	line-height:38px;
+	width:91px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #9b14b3;
+	margin-bottom: 15px;
+}
+
+.more:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de) );
+	background:-moz-linear-gradient( center top, #a20dbd 5%, #c123de 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a20dbd', endColorstr='#c123de');
+	background-color:#a20dbd;
+}
+
+.more:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
